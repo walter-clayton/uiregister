@@ -1,0 +1,55 @@
+
+body {
+    background-image: url("./images/asset2.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    background-image: url("./images/asset1e.jpg");
+    background-size: cover;
+    top: 10vh;
+    border-radius:25px !important;
+}
+
+#body {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+label {
+    font-size: 0.8em;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+}
+
+#login {
+    text-decoration: underline;
+}
+
+#slogan {
+    top: 70vh !important;
+}
+
+#register {
+    background-color: #8D2786;
+    border-radius: 75px;
+}
+
+#google {
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+    background-color:white;
+    color: black;
+}
