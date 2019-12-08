@@ -1,0 +1,36 @@
+
+body {
+    background-image: url("./images/asset2.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    background-image: url("./images/asset1e.jpg");
+    background-size: cover;
+    top: 20vh;
+    border-radius: 15px;
+}
+
+label {
+    font-size: 0.8em;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#slogan {
+    top: 70vh !important;
+}
