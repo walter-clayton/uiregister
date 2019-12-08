@@ -4,29 +4,28 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-<link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+    <meta content="width=600" name="viewport">
+    <link rel='stylesheet' type='text/css' media='screen' href='register.css'>
 <link rel='stylesheet' type='text/css' media='screen' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
-
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="jumbotron  col-md-7 col-10 container rounded p-0">
-        <div class="d-flex column ">
+<div  id="container" class="jumbotron col-8 container rounded p-0">
+        <div  class="d-flex column ">
           <div class="d-flex flex-row col-md-5 mt-5 p-3">
             <div class=" row no-gutters ">
             <div class="card-body mt-4 m-3" id="slogan">            
               <h3 class="card-title text-white text-uppercase ">REDEFINING MOBILE <br> ADVERTISING</h3>
-                <h6 class="text-white">Please use this form to register. 
-                <br> If you are a member, please <span>login</span>.
+                <h6 class="text-white mt-3">Please use this form to register. 
+                <br> If you are a member, please <span id="login">login</span>.
                 </h6>
             </div>
           </div>
         </div>
-            <div class= "col-md-12 card-body bg-white d-flex flex-column p-5">
-                <div id="p-3">
-                    <img src="./images/asset3.png" class = "logo p-3" alt="">
+            <div id= "body" class= "col-md-12 card-body bg-white d-flex flex-column px-5">
+                <div id="p-5 mt-5">
+                    <img src="./images/asset3.png" class = "logo p-4 mt-5" alt="">
                 </div>
                 <div class="p-4">
                     <form action="#">
@@ -36,18 +35,18 @@
                     <input type="text" class="form-control ">
                     </div>
                     <div class="input-group mt-3 d-flex flex-column">
-                    <label for="Full Name" class="text-secondary p-0 m-0">Full Name</label>
+                    <label for="Full Name" class="text-secondary p-0 m-0">E-mail</label>
                     <input type="text" class="form-control ">
                     </div>
                     <div class="input-group mt-3 d-flex flex-column">
-                    <label for="Full Name" class="text-secondary p-0 m-0">Full Name</label>
+                    <label for="Full Name" class="text-secondary p-0 m-0">Password</label>
                     <input type="text" class="form-control ">
                     </div>
-                    <div class="input-group mt-4 d-flex flex-column">
-                    <button class="rounded">REGISTER</button>
+                    <div class="input-group mt-4 d-inline-flex justify-content-center">
+                    <button id="register" class=" btn text-white px-4">REGISTER</button>
                     </div>
-                    <div class="input-group mt-4 d-flex flex-column">
-                    <button class="rounded bg-white">Sign in with Google</button>
+                    <div class="input-group mt-4 d-inline-flex justify-content-center">
+                    <button id = "google" class=" btn bg-white">  <img src="./images/search.png"></img> <span class="mx-5 text-secondary">Sign in with Google</span> </button>
                     </div>
                     </form> 
                 </div>   
@@ -55,6 +54,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>

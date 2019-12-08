@@ -6,12 +6,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-.container {
+#container {
     background-image: url("./images/asset1e.jpg");
     background-size: cover;
-    top: 20vh;
-    border-radius: 15px;
+    top: 10vh;
+    border-radius:25px !important;
+}
+
+#body {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 label {
@@ -27,10 +31,25 @@ label {
     width: 150px;
 }
 
-span {
+#login {
     text-decoration: underline;
 }
 
 #slogan {
     top: 70vh !important;
+}
+
+#register {
+    background-color: #8D2786;
+    border-radius: 75px;
+}
+
+#google {
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+    background-color:white;
+    color: black;
 }
